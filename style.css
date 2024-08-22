@@ -14,7 +14,7 @@ nav {
     margin-bottom: 20px;
     display: flex;
     padding: 10px;
-    border:dashed;
+    border:double;
     border-width:8px;
     border-radius:30px;
     border-color:crimson
@@ -28,7 +28,9 @@ h1 {
 }
 
 p {
-    text-decoration-color:
+   font-family:Arial, Helvetica, sans-serif;
+}
+
 #nav-ul {
     list-style-image: none;
 }
@@ -44,7 +46,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(0, 0, 0);
+     background:maroon;
     display: flex;
 }
 .sidebar {
@@ -52,7 +54,13 @@ main {
     padding: 10px;
 }
 .sidebar-img {
-    width: 200px;
+    width:400px;
+    border:double;
+    border-color:crimson;
+    border-radius:50px;
+    border-width:5px;
+    
+    
 }
 .content {
     flex: 1;
@@ -61,9 +69,7 @@ main {
 
 /* portfolio styles */
 #interests {
-    border:dashed;
+    border:double;
     padding: 8px;
-}
-h2, h3 {
     margin: 0px;
 }
