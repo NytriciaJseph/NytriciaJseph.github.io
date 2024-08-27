@@ -1,8 +1,8 @@
-  body {
+body {
     background-color:maroon;
     color: rgb(0, 0, 0);
     padding: 10px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #all-contents {
   max-width: 800px;
@@ -29,6 +29,7 @@ h1 {
 
 p {
    font-family:Arial, Helvetica, sans-serif;
+   text-shadow:1px 1px ;
 }
 
 #nav-ul {
@@ -36,8 +37,8 @@ p {
 }
 .nav-li {
     display: inline-block;
-    padding: 0 10px;
-    
+    padding:10px;
+
 } 
 a {
     text-decoration: none;
@@ -46,7 +47,6 @@ a {
 
 /* main container area beneath menu */
 main {
-     background:maroon;
     display: flex;
 }
 .sidebar {
@@ -54,13 +54,11 @@ main {
     padding: 10px;
 }
 .sidebar-img {
-    width:400px;
+    width:300px;
     border:double;
     border-color:crimson;
     border-radius:50px;
-    border-width:5px;
-    
-    
+    border-width:5px; 
 }
 .content {
     flex: 1;
@@ -70,6 +68,44 @@ main {
 /* portfolio styles */
 #interests {
     border:double;
+    border-width:5px;
+    border-color:crimson;
     padding: 8px;
     margin: 0px;
 }
+li{
+    text-shadow:1px 1px;
+}
+         /* portfolio styles */
+         .content h1 {
+            color: black;
+        }
+
+        #portfolio {
+            list-style-type: none;
+            padding-left: 0;
+            background-color:rgb(179, 16, 48);
+        }
+
+        #portfolio li {
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        #portfolio li:hover {
+            background:maroon;
+            border-style:double;
+            border-color:crimson;
+            border-radius:20px;        
+        }
+
+        #portfolio a {
+            text-decoration: none;
+            color: black;
+        }
+        img {
+            border-style:double;
+            border-color:crimson;
+            border-radius:40px;
+        }
