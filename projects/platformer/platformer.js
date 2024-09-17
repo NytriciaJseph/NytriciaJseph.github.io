@@ -56,7 +56,7 @@ $(function () {
      createCollectable('database',1330,660,0,2)
      createCollectable('database',550,115,0,8)
      createCollectable('database',1335,260,0,8)
-     collectable.addImage(collectableImage);
+
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
@@ -64,7 +64,7 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
 
 createCannon("left",670,1,100)
-createCannon("top",699,600,20,30)
+createCannon("top",889,600,20,30)
 
     
     /////////////////////////////////////////////////
