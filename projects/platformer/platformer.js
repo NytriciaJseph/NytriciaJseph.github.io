@@ -40,9 +40,10 @@ $(function () {
     // example usage: createPlatform(x,y,width,height)
     //A step
      createPlatform(1,280,100,8)
-     createPlatform(290,230,100,8)
-     createPlatform(1300,300,100,8)
-     createPlatform(990,400,100,8)
+     createPlatform(300,190,100,8)
+     createPlatform(1300,280,100,8)
+     createPlatform(990,450,100,8)
+     createPlatform(1100,380,100,8)
      createPlatform(590,370,100,8)
      createPlatform(1300,700,100,8)
      createPlatform(1200,600,100,8)
@@ -55,7 +56,7 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
      createCollectable('database',1330,660,0,2)
      createCollectable('database',550,115,0,8)
-     createCollectable('database',1335,260,0,8)
+     createCollectable('database',1335,240,0,8)
 
     // TODO 3
     // Create cannons
@@ -64,7 +65,8 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
 
 createCannon("left",670,1,100)
-createCannon("top",889,600,20,30)
+createCannon("top",889,1300,20,30)
+createCannon("left",270,1300,20,30)
 
     
     /////////////////////////////////////////////////
